@@ -12,7 +12,6 @@ namespace KataCalculator
             ExpensesOperation expensesOperation = new ExpensesOperation();
             CapOperation capOperation = new CapOperation();
             Calculate calculate = new Calculate(taxOperation, discountOperation, expensesOperation, capOperation);
-            Console.Write("hi");
         }
         
     }
